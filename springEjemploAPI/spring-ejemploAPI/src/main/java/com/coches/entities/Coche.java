@@ -1,4 +1,4 @@
-package com.coches.entidades;
+package com.coches.entities;
 
 import java.io.Serializable;
 
@@ -18,6 +18,8 @@ public class Coche implements Serializable {
 	@Column(unique = true)
 	private String matricula;
 	private int caballos;
+	
+	public Coche() {}
 	
 	public Coche(String modelo, String matricula, int caballos) {
 		setCaballos(caballos);
