@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Coche implements Serializable {
+public class Car implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -19,9 +19,9 @@ public class Coche implements Serializable {
 	private String matricula;
 	private int caballos;
 	
-	public Coche() {}
+	public Car() {}
 	
-	public Coche(String modelo, String matricula, int caballos) {
+	public Car(String modelo, String matricula, int caballos) {
 		setCaballos(caballos);
 		setMatricula(matricula);
 		setModelo(modelo);
@@ -75,7 +75,7 @@ public class Coche implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Coche other = (Coche) obj;
+		Car other = (Car) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;

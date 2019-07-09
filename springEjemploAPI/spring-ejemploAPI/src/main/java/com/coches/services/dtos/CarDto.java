@@ -1,6 +1,6 @@
-package com.coches.entities.types;
+package com.coches.services.dtos;
 
-public class CocheDto {
+public class CarDto {
 	
 	
 	public Long id;

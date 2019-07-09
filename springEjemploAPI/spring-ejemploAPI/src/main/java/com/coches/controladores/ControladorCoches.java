@@ -15,14 +15,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.coches.controladores.impl.DeleteCoche;
+import com.coches.controladores.impl.DeleteCar;
 import com.coches.controladores.impl.FindAllCars;
-import com.coches.controladores.impl.SaveCoche;
-import com.coches.entities.Coche;
+import com.coches.controladores.impl.SaveCar;
 import com.coches.entities.ErrorResponseEntity;
-import com.coches.entities.types.CocheDto;
 import com.coches.services.LogService;
 import com.coches.services.ServiceFactory;
+import com.coches.services.dtos.CarDto;
 
 @RestController
 @RequestMapping("/coche")
@@ -44,40 +43,31 @@ public class ControladorCoches {
 
 	@GetMapping("/list")
 	public ResponseEntity<?> findAll() {
-        logService.info("Listado de todos los coches");
-        List<CocheDto> cocheDtoList = null;
-        try {   	
-        	cocheDtoList = new FindAllCars(serviceFactory).execute();				        
-		} catch (Exception e) {
-			logService.info(" Intentalistar coches, pero " + e.getMessage());
+		try {
+			List<CarDto> cocheDtoList = new FindAllCars(serviceFactory).execute();
+			return new ResponseEntity<>(cocheDtoList, HttpStatus.OK);
+		} catch (IllegalArgumentException e) {
+			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
 		}
-        
-        if( cocheDtoList == null)
-        	return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity("Error al listar los coches");
-        else {
-        	return new ResponseEntity<>(cocheDtoList, HttpStatus.OK);
-        }
-        	
-    }
+
+	}
 
 	@DeleteMapping("/delete/{cocheID}")
-	public ResponseEntity<?> delete(@PathVariable Long cocheID,@RequestBody String json) {
+	public ResponseEntity<?> delete(@PathVariable Long cocheID, @RequestBody String json) {
 		try {
-            List<CocheDto> list = new DeleteCoche(
-                    serviceFactory, cocheID, json).execute();
-            return new ResponseEntity<>(list, HttpStatus.OK);
-        } catch (Exception e) {
-            return ErrorResponseEntity.getErrorResponseEntity()
-                    .returnResponseEntity(e.getMessage());
-        } 
+			List<CarDto> list = new DeleteCar(serviceFactory, cocheID, json).execute();
+			return new ResponseEntity<>(list, HttpStatus.OK);
+		} catch (Exception e) {
+			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
+		}
 	}
 
 	@PostMapping("/save/")
 	public ResponseEntity<?> save(@RequestBody String json) {
 
-		List<CocheDto> cocheDtoList = null;
+		List<CarDto> cocheDtoList = null;
 		try {
-			cocheDtoList = new SaveCoche(serviceFactory, json).execute();
+			cocheDtoList = new SaveCar(serviceFactory, json).execute();
 		} catch (IOException e) {
 			logService.info(" Intenta añadir coche, pero " + e.getMessage());
 		} catch (DataIntegrityViolationException e) {
