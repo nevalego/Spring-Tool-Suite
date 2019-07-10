@@ -19,20 +19,22 @@ public class DeleteCar implements Command<List<CarDto>> {
 		this.json = json;
 	}
 
+	public DeleteCar(ServiceFactory serviceFactory, Long cocheID) {
+		this.serviceFactory = serviceFactory;
+		this.cocheID = cocheID;
+	}
+
 	@Override
 	public List<CarDto> execute() throws Exception {
 
-		ObjectMapper objectMapper = new ObjectMapper();
-		CarDto carDto = objectMapper.readValue(json, CarDto.class);
 
-		List<CarDto> cochesDtoList = serviceFactory.getCoches().findById(carDto.id);
+		List<CarDto> cochesDtoList = serviceFactory.getCoches().findById(cocheID);
 
 		if (!cochesDtoList.isEmpty()) {
-			carDto.id = this.cocheID;
 			return serviceFactory.getCoches().delete(cocheID);
 
 		} else {
-			throw new IllegalArgumentException("No se ha podido eliminar el dispositivo");
+			throw new IllegalArgumentException("No existe el coche con ese ID");
 		}
 
 	}

@@ -18,7 +18,7 @@ public class Car implements Serializable {
 	private Long id;
 	private String modelo;
 	
-	@Column(unique = true, nullable =false)
+	@Column(nullable =false)
 	private String matricula;
 	
 	private int caballos;

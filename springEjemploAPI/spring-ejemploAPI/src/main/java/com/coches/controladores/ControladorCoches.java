@@ -53,9 +53,11 @@ public class ControladorCoches {
 	}
 
 	@DeleteMapping("/delete/{cocheID}")
-	public ResponseEntity<?> delete(@PathVariable Long cocheID, @RequestBody String json) {
+	public ResponseEntity<?> delete(@PathVariable Long cocheID) {
+		
 		try {
-			List<CarDto> list = new DeleteCar(serviceFactory, cocheID, json).execute();
+			List<CarDto> list = new DeleteCar(serviceFactory, cocheID).execute();
+			logService.info("Coche borrado ");
 			return new ResponseEntity<>(list, HttpStatus.OK);
 		} catch (Exception e) {
 			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
