@@ -60,7 +60,14 @@ public class Car implements Serializable {
 	}
 
 	public void setId(Long id) {
-		this.id = id;
+		if(id < 0) 
+			this.id = Math.abs(id);
+		else if( id < 0L)
+			this.id=id+1L;
+		else
+			this.id=id;
+						
+		
 	}
 
 	@Override
