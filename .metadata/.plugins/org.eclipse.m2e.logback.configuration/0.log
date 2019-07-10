@@ -1419,3 +1419,291 @@
 2019-07-09 14:00:42,770 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-07-09 14:00:42,773 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-07-09 14:00:42,774 [Worker-126: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 09:55:53,819 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-07-10 09:56:07,949 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.1.6.RELEASE
+2019-07-10 09:56:07,964 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.1.6.RELEASE
+2019-07-10 09:56:07,984 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.2.3
+2019-07-10 09:56:08,000 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-core:1.2.3
+2019-07-10 09:56:08,014 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-to-slf4j:2.11.2
+2019-07-10 09:56:08,041 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-api:2.11.2
+2019-07-10 09:56:08,078 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.26
+2019-07-10 09:56:08,091 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.annotation:javax.annotation-api:1.3.2
+2019-07-10 09:56:08,105 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.yaml:snakeyaml:1.23
+2019-07-10 09:56:08,124 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.9.9
+2019-07-10 09:56:08,137 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.9.0
+2019-07-10 09:56:08,152 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.9.9
+2019-07-10 09:56:08,165 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.9
+2019-07-10 09:56:08,177 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9
+2019-07-10 09:56:08,189 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.9
+2019-07-10 09:56:08,208 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:9.0.21
+2019-07-10 09:56:08,220 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:9.0.21
+2019-07-10 09:56:08,232 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:9.0.21
+2019-07-10 09:56:08,245 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:6.0.17.Final
+2019-07-10 09:56:08,259 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.validation:validation-api:2.0.1.Final
+2019-07-10 09:56:08,272 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.2.Final
+2019-07-10 09:56:08,285 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.4.0
+2019-07-10 09:56:08,299 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.1.8.RELEASE
+2019-07-10 09:56:08,323 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.1.8.RELEASE
+2019-07-10 09:56:08,335 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.1.8.RELEASE
+2019-07-10 09:56:08,348 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.1.8.RELEASE
+2019-07-10 09:56:08,359 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.1.8.RELEASE
+2019-07-10 09:56:08,372 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.1.8.RELEASE
+2019-07-10 09:56:08,392 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.1.6.RELEASE
+2019-07-10 09:56:08,408 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.1.6.RELEASE
+2019-07-10 09:56:08,451 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.jayway.jsonpath:json-path:2.4.0
+2019-07-10 09:56:08,489 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.minidev:json-smart:2.3
+2019-07-10 09:56:08,520 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.minidev:accessors-smart:1.2
+2019-07-10 09:56:08,544 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm:5.0.4
+2019-07-10 09:56:08,563 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.26
+2019-07-10 09:56:08,608 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2019-07-10 09:56:08,625 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.assertj:assertj-core:3.11.1
+2019-07-10 09:56:08,638 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mockito:mockito-core:2.23.4
+2019-07-10 09:56:08,654 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.9.13
+2019-07-10 09:56:08,667 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.9.13
+2019-07-10 09:56:08,681 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.objenesis:objenesis:2.6
+2019-07-10 09:56:08,711 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2019-07-10 09:56:08,725 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-library:1.3
+2019-07-10 09:56:08,737 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.skyscreamer:jsonassert:1.5.0
+2019-07-10 09:56:08,749 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+2019-07-10 09:56:08,762 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.1.8.RELEASE
+2019-07-10 09:56:08,774 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.1.8.RELEASE
+2019-07-10 09:56:08,797 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.1.8.RELEASE
+2019-07-10 09:56:08,813 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xmlunit:xmlunit-core:2.6.2
+2019-07-10 09:56:08,838 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.9.4
+2019-07-10 09:56:08,861 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.zaxxer:HikariCP:3.2.0
+2019-07-10 09:56:08,880 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:5.1.8.RELEASE
+2019-07-10 09:56:08,901 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.transaction:javax.transaction-api:1.3
+2019-07-10 09:56:08,912 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.xml.bind:jaxb-api:2.3.1
+2019-07-10 09:56:08,925 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:javax.activation-api:1.2.0
+2019-07-10 09:56:08,938 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.3.10.Final
+2019-07-10 09:56:08,957 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.persistence:javax.persistence-api:2.2
+2019-07-10 09:56:08,974 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.23.2-GA
+2019-07-10 09:56:09,000 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.0.5.Final
+2019-07-10 09:56:09,021 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.dom4j:dom4j:2.1.1
+2019-07-10 09:56:09,035 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.0.4.Final
+2019-07-10 09:56:09,051 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jpa:2.1.9.RELEASE
+2019-07-10 09:56:09,065 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.1.9.RELEASE
+2019-07-10 09:56:09,079 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:5.1.8.RELEASE
+2019-07-10 09:56:09,091 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.1.8.RELEASE
+2019-07-10 09:56:09,103 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aspects:5.1.8.RELEASE
+2019-07-10 09:56:09,115 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.16
+2019-07-10 09:56:16,727 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 09:56:16,732 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 09:56:16,760 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 09:56:16,764 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 09:56:16,764 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:09:09,837 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:09:09,842 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:09:09,850 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:09:09,853 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:09:09,853 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:09:44,006 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:09:44,008 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:09:44,020 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:09:44,024 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:09:44,024 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:09:55,374 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:09:55,376 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:09:55,381 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:09:55,385 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:09:55,386 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:09:57,877 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:09:57,879 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:09:57,883 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:09:57,887 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:09:57,887 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:10:28,723 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:10:28,724 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:10:28,735 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:10:28,745 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:10:28,746 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:12:10,014 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:12:10,015 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:12:10,021 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:12:10,026 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:12:10,028 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:12:12,201 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:12:12,202 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:12:12,208 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:12:12,215 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:12:12,217 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:13:09,262 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:13:09,856 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:13:09,860 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:13:09,862 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:13:09,863 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:13:22,197 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:13:22,204 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:13:22,215 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:13:22,222 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:13:22,223 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:14:35,292 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:14:35,292 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:14:35,297 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:14:35,302 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:14:35,303 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:14:43,387 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:14:43,391 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:14:43,397 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:14:43,403 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:14:43,404 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:15:25,325 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:15:25,326 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:15:25,330 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:15:25,332 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:15:25,333 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:15:33,639 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:15:33,639 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:15:33,643 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:15:33,647 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:15:33,647 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:16:25,899 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:16:25,900 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:16:25,906 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:16:25,910 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:16:25,912 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:16:30,541 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:16:30,544 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:16:30,548 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:16:30,553 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:16:30,553 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:16:32,671 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:16:32,672 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:16:32,675 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:16:32,677 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:16:32,678 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:19:15,131 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:19:15,157 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:19:15,164 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:19:15,168 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:19:15,168 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:23:31,753 [Worker-23: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:23:31,754 [Worker-23: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:23:31,759 [Worker-23: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:23:31,763 [Worker-23: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:23:31,764 [Worker-23: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:23:54,289 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:23:54,292 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:23:54,297 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:23:54,302 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:23:54,302 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:24:17,847 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:24:17,848 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:24:17,852 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:24:17,855 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:24:17,855 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:24:31,366 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:24:31,367 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:24:31,370 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:24:31,373 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:24:31,373 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:27:31,808 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:27:31,809 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:27:31,813 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:27:31,816 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:27:31,818 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:27:36,613 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:27:36,615 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:27:36,620 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:27:36,624 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:27:36,624 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:29:34,859 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:29:34,860 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:29:34,864 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:29:34,866 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:29:34,868 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:33:54,127 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:33:54,129 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:33:54,133 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:33:54,136 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:33:54,136 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:35:27,409 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:35:27,410 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:35:27,417 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:35:27,421 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:35:27,422 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:36:19,568 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:36:19,572 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:36:19,578 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:36:19,583 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:36:19,583 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:37:48,839 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:37:48,840 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:37:48,850 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:37:48,853 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:37:48,853 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:40:21,416 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:40:21,417 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:40:21,420 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:40:21,424 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:40:21,425 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:40:24,007 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:40:24,008 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:40:24,017 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:40:24,021 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:40:24,023 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:40:28,620 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:40:28,624 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:40:28,631 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:40:28,636 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:40:28,636 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:48:56,597 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:48:56,599 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:48:56,641 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:48:56,643 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:48:56,778 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:49:49,632 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:49:49,637 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:49:49,651 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:49:49,655 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:49:49,655 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:51:00,223 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:51:00,224 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:51:00,229 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:51:00,234 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:51:00,235 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:53:57,802 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:53:57,809 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:53:57,817 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:53:57,821 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:53:57,821 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 10:54:06,250 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:54:06,252 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:54:06,257 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 10:54:06,259 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 10:54:06,259 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 11:13:19,606 [Worker-50: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:13:19,607 [Worker-50: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:13:19,645 [Worker-50: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:13:19,653 [Worker-50: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:13:19,653 [Worker-50: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 11:14:52,219 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:14:52,220 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:14:52,226 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:14:52,229 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:14:52,231 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 11:22:11,568 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:22:11,571 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:22:11,577 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:22:11,582 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:22:11,583 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 11:28:00,271 [Worker-66: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:28:00,272 [Worker-66: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:28:00,283 [Worker-66: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:28:00,286 [Worker-66: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:28:00,316 [Worker-66: Launching cochesSpring - EjemploSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 11:30:29,665 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:30:29,666 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:30:29,673 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:30:29,677 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:30:29,677 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 11:30:51,393 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:30:51,394 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:30:51,400 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:30:51,403 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:30:51,405 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources
+2019-07-10 11:34:29,433 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:34:29,461 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-10 11:34:29,468 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-10 11:34:29,472 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-10 11:34:29,472 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Documents\Nerea Koinsys\Spring-Tool-Suite\springEjemploAPI\spring-ejemploAPI\src\test\resources

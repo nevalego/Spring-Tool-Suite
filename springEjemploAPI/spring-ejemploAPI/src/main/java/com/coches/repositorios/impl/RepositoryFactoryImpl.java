@@ -10,10 +10,10 @@ public class RepositoryFactoryImpl implements RepositoryFactory {
 
 	private CarsRepository carsRepository;
 	
-	@Autowired
+	
 	public  RepositoryFactoryImpl() {
 	}
-	
+	@Autowired
 	public RepositoryFactoryImpl(CarsRepository carsRepository) {
 		this.carsRepository=carsRepository;
 	}

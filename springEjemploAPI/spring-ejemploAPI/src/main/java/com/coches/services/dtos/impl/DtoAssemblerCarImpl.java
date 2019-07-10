@@ -3,14 +3,24 @@ package com.coches.services.dtos.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.coches.entities.Car;
+import com.coches.repositorios.RepositoryFactory;
 import com.coches.services.dtos.CarDto;
 import com.coches.services.dtos.DtoAssemblerCar;
 
 @Service
 public class DtoAssemblerCarImpl implements DtoAssemblerCar {
+
+	private RepositoryFactory repositoryFactory;
+
+	@Autowired
+	public DtoAssemblerCarImpl(RepositoryFactory repositoryFactory) {
+		this.repositoryFactory = repositoryFactory;
+	}
+
 
 	@Override
 	public CarDto carToDto(Car car) {

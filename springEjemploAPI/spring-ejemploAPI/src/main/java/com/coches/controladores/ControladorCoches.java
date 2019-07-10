@@ -62,7 +62,7 @@ public class ControladorCoches {
 		}
 	}
 
-	@PostMapping("/save/")
+	@PostMapping("/save")
 	public ResponseEntity<?> save(@RequestBody String json) {
 
 		List<CarDto> cocheDtoList = null;

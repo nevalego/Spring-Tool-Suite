@@ -7,16 +7,20 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "Car")
 public class Car implements Serializable {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	private String modelo;
-	@Column(unique = true)
+	
+	@Column(unique = true, nullable =false)
 	private String matricula;
+	
 	private int caballos;
 	
 	public Car() {}

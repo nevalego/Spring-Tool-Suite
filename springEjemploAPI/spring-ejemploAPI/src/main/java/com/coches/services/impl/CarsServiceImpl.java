@@ -20,9 +20,6 @@ public class CarsServiceImpl implements CarsService {
 	private DtoFactory dtoFactory;
 
 	@Autowired
-	public CarsServiceImpl() {
-	}
-
 	public CarsServiceImpl(RepositoryFactory repositoryFactory, DtoFactory dtoFactory) {
 		this.repositoryFactory = repositoryFactory;
 		this.dtoFactory = dtoFactory;
@@ -34,7 +31,8 @@ public class CarsServiceImpl implements CarsService {
 		List<CarDto> carDtosList = repositoryFactory.getCars().findByMatricula(carDto.matricula);
 
 		if (carDtosList.isEmpty()) {
-			Car car = repositoryFactory.getCars().save(dtoFactory.getCars().dtoToCar(carDto));
+			Car car = dtoFactory.getCars().dtoToCar(carDto);
+			car = repositoryFactory.getCars().save(car);
 			return findById(car.getId());
 		} else
 			throw new IllegalArgumentException("Ya existe un coche con esa matrícula");
@@ -77,12 +75,15 @@ public class CarsServiceImpl implements CarsService {
 
 	@Override
 	public List<CarDto> findAll() {
-		List<Car> cars = repositoryFactory.getCars().findAll();
+		List<Car> cars = new ArrayList<>();
 
-		if (cars.isEmpty()) {
+		cars = repositoryFactory.getCars().findAll();
+
+		if (cars == null)
+			throw new IllegalArgumentException("Fallo al listar coches");
+		else if (cars.isEmpty()) {
 			throw new IllegalArgumentException("No hay ningún coche");
 		} else {
-
 			return dtoFactory.getCars().listToDto(cars);
 		}
 
