@@ -71,13 +71,11 @@ public class ControladorCoches {
 		try {
 			cocheDtoList = new SaveCar(serviceFactory, json).execute();
 		} catch (IOException e) {
-			logService.info(" Intenta añadir coche, pero " + e.getMessage());
+			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
 		} catch (DataIntegrityViolationException e) {
-			logService.info(" Intenta añadir coche, pero " + e.getMessage());
 			return ErrorResponseEntity.getErrorResponseEntity()
-					.returnResponseEntity("Ya existe un coche con ese " + "identificador");
+					.returnResponseEntity(e.getMessage());
 		} catch (IllegalArgumentException e) {
-			logService.info(" Intenta añadir coche, pero " + e.getMessage());
 			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
 		}
 		if (cocheDtoList == null) {

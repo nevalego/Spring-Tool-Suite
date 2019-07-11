@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import com.coches.entities.Car;
@@ -28,14 +29,18 @@ public class CarsServiceImpl implements CarsService {
 	@Override
 	public List<CarDto> save(CarDto carDto) {
 
-		List<CarDto> carDtosList = repositoryFactory.getCars().findByMatricula(carDto.matricula);
+		List<Car> carsList = repositoryFactory.getCars().findByMatricula(carDto.matricula);
 
-		if (carDtosList.isEmpty()) {
-			Car car = dtoFactory.getCars().dtoToCar(carDto);
-			car = repositoryFactory.getCars().save(car);
-			return findById(car.getId());
+		if (carsList.isEmpty()) {
+			
+			List<CarDto> cars = new ArrayList<>();
+			
+			cars.add(dtoFactory.getCars().carToDto(repositoryFactory
+	                .getCars().save(dtoFactory.getCars().dtoToCar(carDto))));
+			
+			return cars;
 		} else
-			throw new IllegalArgumentException("Ya existe un coche con esa matrícula");
+			throw new DataIntegrityViolationException("Ya existe un coche con esa matrícula");
 	}
 
 	@Override
@@ -69,7 +74,7 @@ public class CarsServiceImpl implements CarsService {
 				return carDtosList;
 			}
 		} else {
-			throw new IllegalArgumentException("No se encuentra ningún coche con ese ID");
+			throw new IllegalArgumentException("El coche no existe y por tanto no se puede eliminar");
 		}
 	}
 
@@ -80,7 +85,7 @@ public class CarsServiceImpl implements CarsService {
 		cars = repositoryFactory.getCars().findAll();
 
 		if (cars == null)
-			throw new IllegalArgumentException("Fallo al listar coches");
+			throw new IllegalArgumentException("Error al obtener el listado de los coches");
 		else if (cars.isEmpty()) {
 			throw new IllegalArgumentException("No hay ningún coche");
 		} else {

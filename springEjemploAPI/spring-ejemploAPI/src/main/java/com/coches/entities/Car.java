@@ -11,20 +11,26 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Car")
+
 public class Car implements Serializable {
 
+	private static final long serialVersionUID = 1L;
+	public static final int DEFAULT_CABALLOS = 70;
+	public static final long PLATE_LENGTH = 7;
+
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String modelo;
-	
-	@Column(nullable =false)
+
+	@Column(nullable = false)
 	private String matricula;
-	
+
 	private int caballos;
-	
-	public Car() {}
-	
+
+	public Car() {
+	}
+
 	public Car(String modelo, String matricula, int caballos) {
 		setCaballos(caballos);
 		setMatricula(matricula);
@@ -49,6 +55,27 @@ public class Car implements Serializable {
 
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
+
+	}
+
+	public static boolean isCorrect(String matricula2) {
+		char[] sequence = matricula2.toCharArray();
+		boolean correct = true;
+		char c;
+
+		for (int i = 0; i <= 3; i++) {
+			c = sequence[i];
+			if (!Character.isDigit(c))
+				correct &= false;
+		}
+
+		for (int i = 4; i < PLATE_LENGTH; i++) {
+			c = sequence[i];
+			if (!Character.isLetter(c))
+				correct &= false;
+		}
+
+		return correct;
 	}
 
 	public int getCaballos() {
@@ -56,18 +83,16 @@ public class Car implements Serializable {
 	}
 
 	public void setCaballos(int caballos) {
-		this.caballos = caballos;
+		if(caballos != 0)
+			if(caballos > 0)
+				this.caballos = caballos;
+		else
+			this.caballos= DEFAULT_CABALLOS;
 	}
 
 	public void setId(Long id) {
-		if(id < 0) 
-			this.id = Math.abs(id);
-		else if( id < 0L)
-			this.id=id+1L;
-		else
-			this.id=id;
-						
-		
+		this.id = id;
+
 	}
 
 	@Override
@@ -99,7 +124,5 @@ public class Car implements Serializable {
 	public String toString() {
 		return "Coche [id=" + id + ", modelo=" + modelo + ", matricula=" + matricula + ", caballos=" + caballos + "]";
 	}
-	
-	
-	
+
 }
