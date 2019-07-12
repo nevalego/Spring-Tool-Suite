@@ -1,4 +1,4 @@
-package com.coches.controladores.impl;
+package com.coches.controladores.impl.cars;
 
 import java.io.IOException;
 import java.util.List;
@@ -21,7 +21,7 @@ public class SaveCar implements Command<List<CarDto>> {
 	public List<CarDto> execute() throws IOException{
 		ObjectMapper objectMapper = new ObjectMapper();
 		CarDto dto = objectMapper.readValue(json, CarDto.class);
-		return serviceFactory.getCoches().save(dto);
+		return serviceFactory.getCars().save(dto);
 	}
 
 }

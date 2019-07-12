@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 public interface RepositoryFactory {
 
 	CarsRepository getCars();
+
+	PeopleRepository getPeople();
 }

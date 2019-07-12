@@ -1,5 +1,7 @@
 package com.coches.services.dtos;
 
+import com.coches.entities.Person;
+
 public class CarDto {
 	
 	
@@ -7,4 +9,5 @@ public class CarDto {
 	public String matricula;
 	public String modelo;
 	public int caballos;
+	public Person persona;
 }

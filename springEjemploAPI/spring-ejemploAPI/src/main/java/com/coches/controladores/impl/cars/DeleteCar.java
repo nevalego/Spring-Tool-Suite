@@ -1,11 +1,10 @@
-package com.coches.controladores.impl;
+package com.coches.controladores.impl.cars;
 
 import java.util.List;
 
 import com.coches.services.ServiceFactory;
 import com.coches.services.dtos.CarDto;
 import com.coches.util.Command;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class DeleteCar implements Command<List<CarDto>> {
 
@@ -28,10 +27,10 @@ public class DeleteCar implements Command<List<CarDto>> {
 	public List<CarDto> execute() throws Exception {
 
 
-		List<CarDto> cochesDtoList = serviceFactory.getCoches().findById(cocheID);
+		List<CarDto> cochesDtoList = serviceFactory.getCars().findById(cocheID);
 
 		if (!cochesDtoList.isEmpty()) {
-			return serviceFactory.getCoches().delete(cocheID);
+			return serviceFactory.getCars().delete(cocheID);
 
 		} else {
 			throw new IllegalArgumentException("No existe el coche con ese ID");

@@ -15,6 +15,7 @@ import org.springframework.http.ResponseEntity;
 
 import com.coches.controladores.ControladorCoches;
 import com.coches.services.CarsService;
+import com.coches.services.PeopleService;
 import com.coches.services.dtos.CarDto;
 import com.coches.services.impl.ServiceFactoryImpl;
 
@@ -27,6 +28,7 @@ public class CarControllerTest {
 
 	@Mock
 	private CarsService carsService;
+	private PeopleService peopleService;
 	private ServiceFactoryImpl serviceFactory;
 
 	private List<CarDto> carsDtoList = new ArrayList<>();
@@ -46,7 +48,7 @@ public class CarControllerTest {
 		this.carFordDto.modelo = "Ford Fiesta";
 		this.carFordDto.caballos=85;
 
-		serviceFactory = new ServiceFactoryImpl(carsService);
+		serviceFactory = new ServiceFactoryImpl(carsService,peopleService);
 		this.carController = new ControladorCoches(serviceFactory);
 
 	}

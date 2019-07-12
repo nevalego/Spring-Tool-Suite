@@ -1,4 +1,4 @@
-package com.coches.controladores.impl;
+package com.coches.controladores.impl.cars;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ public class FindAllCars implements Command<List<CarDto>>{
 	@Override
 	public List<CarDto> execute() {
 		
-		return serviceFactory.getCoches().findAll();
+		return serviceFactory.getCars().findAll();
 	}
 	
 

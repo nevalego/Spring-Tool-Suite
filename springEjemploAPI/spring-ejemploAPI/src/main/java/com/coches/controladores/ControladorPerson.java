@@ -15,26 +15,23 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.coches.controladores.impl.cars.DeleteCar;
-import com.coches.controladores.impl.cars.FindAllCars;
-import com.coches.controladores.impl.cars.FindCarById;
-import com.coches.controladores.impl.cars.SaveCar;
+import com.coches.controladores.impl.person.DeletePerson;
+import com.coches.controladores.impl.person.FindAllPerson;
+import com.coches.controladores.impl.person.FindPersonById;
+import com.coches.controladores.impl.person.SavePerson;
 import com.coches.entities.ErrorResponseEntity;
-import com.coches.services.LogService;
 import com.coches.services.ServiceFactory;
-import com.coches.services.dtos.CarDto;
+import com.coches.services.dtos.PersonDto;
 
 @RestController
-@RequestMapping("/coche")
-public class ControladorCoches {
+@RequestMapping("/persona")
+public class ControladorPerson {
 
 	private ServiceFactory serviceFactory;
-	private LogService logService;
 
 	@Autowired
-	public ControladorCoches(ServiceFactory instanceServiceFactory) {
+	public ControladorPerson(ServiceFactory instanceServiceFactory) {
 		this.serviceFactory = instanceServiceFactory;
-		this.logService = new LogService(this);
 	}
 
 	@GetMapping("/")
@@ -45,31 +42,29 @@ public class ControladorCoches {
 	@GetMapping("/list")
 	public ResponseEntity<?> findAll() {
 		try {
-			List<CarDto> cocheDtoList = new FindAllCars(serviceFactory).execute();
-			return new ResponseEntity<>(cocheDtoList, HttpStatus.OK);
+			List<PersonDto> peopleDtoList = new FindAllPerson(serviceFactory).execute();
+			return new ResponseEntity<>(peopleDtoList, HttpStatus.OK);
 		} catch (IllegalArgumentException e) {
 			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
 		}
 
 	}
 	
-	@GetMapping("/find/{carID}")
-	public ResponseEntity<?> findById(@PathVariable Long carID){
+	@GetMapping("/find/{personID}")
+	public ResponseEntity<?> findById(@PathVariable Long personID){
 		try {
-			List<CarDto> carDtoList = new FindCarById(serviceFactory, carID).execute();
-			return new ResponseEntity<>(carDtoList,HttpStatus.OK);
+			List<PersonDto> peopleDtoList = new FindPersonById(serviceFactory, personID).execute();
+			return new ResponseEntity<>(peopleDtoList,HttpStatus.OK);
 		}catch(IllegalArgumentException e) {
 			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
 		}
 	}
 
-	@DeleteMapping("/delete/{carID}")
-	public ResponseEntity<?> delete(@PathVariable Long carID) {
-		
+	@DeleteMapping("/delete/{personID}")
+	public ResponseEntity<?> delete(@PathVariable Long personID) {
 		try {
-			List<CarDto> list = new DeleteCar(serviceFactory, carID).execute();
-			logService.info("Coche borrado ");
-			return new ResponseEntity<>(list, HttpStatus.OK);
+			List<PersonDto> personDtolist = new DeletePerson(serviceFactory, personID).execute();
+			return new ResponseEntity<>(personDtolist, HttpStatus.OK);
 		} catch (Exception e) {
 			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
 		}
@@ -78,9 +73,9 @@ public class ControladorCoches {
 	@PostMapping("/save")
 	public ResponseEntity<?> save(@RequestBody String json) {
 
-		List<CarDto> carDtoList = null;
+		List<PersonDto> personDtolist = null;
 		try {
-			carDtoList = new SaveCar(serviceFactory, json).execute();
+			personDtolist = new SavePerson(serviceFactory, json).execute();
 		} catch (IOException e) {
 			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
 		} catch (DataIntegrityViolationException e) {
@@ -89,11 +84,10 @@ public class ControladorCoches {
 		} catch (IllegalArgumentException e) {
 			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity(e.getMessage());
 		}
-		if (carDtoList == null) {
-			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity("Error al añadir al coche");
+		if (personDtolist == null) {
+			return ErrorResponseEntity.getErrorResponseEntity().returnResponseEntity("Error al añadir la persona");
 		} else {
-			logService.info("Coche guardado ");
-			return new ResponseEntity<>(carDtoList, HttpStatus.OK);
+			return new ResponseEntity<>(personDtolist, HttpStatus.OK);
 		}
 
 	}

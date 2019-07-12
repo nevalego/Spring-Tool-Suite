@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -27,6 +28,9 @@ public class Car implements Serializable {
 	private String matricula;
 
 	private int caballos;
+	
+	@ManyToOne
+    private Person person;
 
 	public Car() {
 	}
@@ -39,6 +43,14 @@ public class Car implements Serializable {
 
 	public Long getId() {
 		return id;
+	}
+
+	public Person getPerson() {
+		return person;
+	}
+
+	public void setPerson(Person person) {
+		this.person = person;
 	}
 
 	public String getModelo() {

@@ -7,18 +7,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.coches.entities.Car;
-import com.coches.repositorios.RepositoryFactory;
 import com.coches.services.dtos.CarDto;
+import com.coches.services.dtos.DateConverter;
 import com.coches.services.dtos.DtoAssemblerCar;
+
 
 @Service
 public class DtoAssemblerCarImpl implements DtoAssemblerCar {
 
-	private RepositoryFactory repositoryFactory;
+	private DateConverter dateConverter;
 
 	@Autowired
-	public DtoAssemblerCarImpl(RepositoryFactory repositoryFactory) {
-		this.repositoryFactory = repositoryFactory;
+	public DtoAssemblerCarImpl(DateConverter dateConverter) {
+		this.dateConverter=dateConverter;
 	}
 
 	@Override
@@ -29,6 +30,9 @@ public class DtoAssemblerCarImpl implements DtoAssemblerCar {
 		carDto.caballos = car.getCaballos();
 		carDto.modelo = car.getModelo();
 
+		if (car.getPerson() != null) {
+			carDto.persona = car.getPerson();
+		}
 		return carDto;
 	}
 
@@ -39,6 +43,11 @@ public class DtoAssemblerCarImpl implements DtoAssemblerCar {
 		car.setMatricula(carDto.matricula);
 		car.setModelo(carDto.modelo);
 		car.setCaballos(carDto.caballos);
+		
+		if(carDto.persona != null) {
+			car.setPerson(carDto.persona);
+		}
+		
 		return car;
 	}
 
